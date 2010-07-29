@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site site="http://espn.go.com/espn3/player"
+	    plugin="http://espn.go.com/espn3/player.swf"
+			initialState="playing"
+			version="1.0">
+
+	
+	<crop x="5" y="5" width="745" height="420" />
+<!--  SEEKBAR NEEDS WORK
+	<seekbar type="simple">
+		<start x="0" y="421" />
+		<end   x="764" y="421" />
+		<played>
+				<color rgb="DFDFDF" />
+		</played>
+	</seekbar>
+-->
+	<!-- PLAYING -->
+	<state name="playing">
+		<event>
+			<condition>
+				<command name="pause" />
+			</condition>
+			<action>
+                <move x="10" y="415" />
+                <pause time="100" />
+				<click x="10" y="415" />
+				<goto state="paused" />
+			</action>
+		</event>
+    
+    </state>
+    
+	<!-- PAUSED -->
+	<state name="paused">
+		<event>
+			<condition>
+				<command name="play" />
+			</condition>
+			<action>
+                <move x="10" y="415" />
+                <pause time="100" />
+				<click x="10" y="415" />
+				<goto state="playing" />
+			</action>
+		</event> 
+	</state>    
+    
+</site>
