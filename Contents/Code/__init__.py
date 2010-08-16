@@ -1,8 +1,5 @@
 # PMS plugin framework
 import datetime
-from PMS import *
-from PMS.Objects import *
-from PMS.Shortcuts import *
 
 ####################################################################################################
 
