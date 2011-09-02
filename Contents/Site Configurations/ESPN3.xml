@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<site site="http://espn.go.com/espn3/player"
-	    plugin="http://espn.go.com/espn3/player.swf"
+<site site="http://espn.go.com/watchespn/player"
+	    plugin="http://espn.go.com/watchespn/player.swf"
 			initialState="playing"
 			version="1.0">
 
