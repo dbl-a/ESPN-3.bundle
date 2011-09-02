@@ -11,7 +11,7 @@ ICON          = 'icon-default.png'
 
 ESPN3_REPLAY  = "http://espn.go.com/espn3/feeds/replay"
 ESPN3_LIVE    = "http://espn.go.com/espn3/feeds/live"
-ESPN_PLAYER   = "http://espn.go.com/espn3/player?id="
+ESPN_PLAYER   = "http://espn.go.com/watchespn/player/_/source/espn3/id/"
 
 ####################################################################################################
 
